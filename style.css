@@ -1,23 +1,23 @@
 body {
-	margin: 2em;
+  margin: 2em;
 }
 
 form {
-	width: 20em;
-	margin-top: 2em;
+  width: 20em;
+  margin-top: 2em;
 }
 
 input {
-	margin: 0 0 1.5em .5em;
+  margin: 0 0 1.5em .5em;
 }
 
 label {
-	float: left;
-	text-align: right;
-	width: 10em;
+  float: left;
+  text-align: right;
+  width: 10em;
 }
 
 .button {
-	float: right;
-	margin-top: 3em;
+  float: right;
+  margin-top: 3em;
 }

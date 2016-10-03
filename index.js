@@ -59,14 +59,14 @@ notifier.notify({
 });
 */
 function ask_for_permission()
-      {
-        Notification.requestPermission(function(){});
-      }
-      
-      function send()
-      {
-        new Notification(document.getElementById('vorname').value, {
-          body: document.getElementById('nachname').value,
-          icon: document.getElementById('icon').value
-        });
-      }
+{
+  Notification.requestPermission(function(){});
+}
+
+function send()
+{
+  new Notification(document.getElementById('vorname').value, {
+    body: document.getElementById('nachname').value,
+    icon: document.getElementById('icon').value
+  });
+}
